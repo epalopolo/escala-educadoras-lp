@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Calendar, Trash2, Save, LogOut, Upload, Eye, CheckCircle, Settings, Loader } from 'lucide-react';
 
 // CONFIGURACIÓN DE SUPABASE
-const SUPABASE_URL = 'TU_SUPABASE_URL';
-const SUPABASE_ANON_KEY = 'TU_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'VITE_SUPABASE_URL';
+const SUPABASE_ANON_KEY = 'VITE_SUPABASE_ANON_KEY';
 
 // Contraseña de admin (en producción, usa autenticación real)
-const ADMIN_PASSWORD = 'admin123';
+const ADMIN_PASSWORD = 'VITE_ADMIN_PASSWORD';
 
 const App = () => {
   const [user, setUser] = useState(null);
